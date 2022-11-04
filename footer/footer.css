@@ -4,10 +4,13 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-ul,li,a{
+
+
+#f ul,li,a{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    padding-top: 10px;
 }
 #footer{
     background-image: linear-gradient(to bottom right, rgb(17, 18, 18), rgb(79, 146, 155));
@@ -18,18 +21,22 @@ ul,li,a{
 #footer_col{
     /* width: 100%; */
     display: flex;
-    justify-content: space-evenly;
-    /* border: 1px solid red; */
+    justify-content: space-between;
+    border: 1px solid red;
 
 }
 
 .first{
     display: flex;
-    /* justify-content: center; */
+    justify-content:space-between;
     flex-direction: column;
     /* border: 1px solid red; */
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    /* margin-top: 50px; */
+
 
     
 }
@@ -76,19 +83,72 @@ ul,li,a{
 }
 
 #copyright{
-    margin-top: 100px;
+    margin-top: 30px;
     text-align: center;
     font-weight: 400;
-    padding: 10px 0px;
+    padding-bottom: 20px;
 }
 
 
+/* #f ul:first-child{
+    background-color: rebeccapurple;
+    padding: 0;
+    margin: 0;
+    width: auto;
 
+} */
 
+.footer-store-img img{
+    width: 100%;
+    object-fit: cover;
+}
+#appstore{
+    width:300px;
+    height: 20vh;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+#appstore:hover{
+   background: none;
 
+}
+.first ul:hover{
+    background: none;
+}
+#app-store{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 10px 3px;
+    /* background-color: ; */
+    color: black;
+    background-color:white;
+    background: transparent;
+    
+}
 
+#app-store div i{
+    font-size: 2.5rem;
+    margin-right: 20px;
+   
+}
 
-
+.cc{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+#app-store div img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    /* border: 2px solid red; */
+}
 
 
 
@@ -97,7 +157,9 @@ ul,li,a{
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
         /* border: 1px solid red; */
     }
+   
     
 }

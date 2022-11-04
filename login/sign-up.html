@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../Header/Header.css">
+    <link rel="stylesheet" href="../footer/footer.css">
+    <link rel="stylesheet" href="../Product/product.css">
+    <link rel="stylesheet" href="../Home/index.css">
+    <link rel="stylesheet" href="../login/login.css">
+    <link rel="stylesheet" href="/login/sign-up.css">
+</head>
+
+<body>
+    <nav class="navbar" id="header1">
+        <div class="container-fluid" id="header">
+            <a class="navbar-brand text-light ms-2 " id="nav1_title">E-commerce</a>
+            <form class="d-flex" role="search" id="search_box_nav1">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success text-light" type="submit">Search</button>
+            </form>
+            <div class="c">
+                <button class="btn btn-outline-success text-light me-4" type="submit"><a class="active"
+                        href="../login/sign-up.html" target="_parent">Sign-Up</a></button>
+                <button class="btn btn-outline-success text-light me-4" type="submit"><a href="../login/login.html"
+                        target="_parent">Login</a></button>
+                <button class="btn btn-outline-success text-light" type="submit"><a href="../cart/cart.html"
+                        target="_parent"><i class="fa-solid fa-cart-shopping"></i></a>
+
+                </button>
+
+            </div>
+        </div>
+    </nav>
+    <!-- first navbar completed end -->
+    <nav class="navbar navbar-expand-lg bg-primary header1" id="second_nav1">
+        <div class="container-fluid " id="second_nav2">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" id="second_nav3">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 " id="ulsecond">
+                    <li class="nav-item ">
+                        <a class="nav-link" aria-current="page" href="../Home/index.html" target="_parent">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" aria-current="page" href="../Product/product.html" target="_parent">All
+                            Products</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Women</a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="../Product/product.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Women
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../Product/product.html" target="_parent">All</a></li>
+                            <li><a class="dropdown-item" href="../Product/product.html" target="_parent">Dresses</a>
+                            </li>
+                            <li><a class="dropdown-item" href="../Product/product.html" target="_parent">Pants</a></li>
+                            <li><a class="dropdown-item" href=".../Product/product.html" target="_parent">Skirts</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="../Product/product.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Men
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../Product/product.html" target="_parent">Shirt</a></li>
+                            <li><a class="dropdown-item" href="../Product/product.html" target="_parent">Pants</a></li>
+
+                            <li><a class="dropdown-item" href="../Product/product.html" target="_parent">Hoodies</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contact/contact.html">Cantact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</body>
+
+</html>

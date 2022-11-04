@@ -15,8 +15,6 @@
     background-image: linear-gradient(to bottom right, rgb(17, 18, 18), rgb(79, 146, 155));
 } */
 #header{
-  
-   
     padding-left: 0px;
     padding-right: 0px;
     padding: 0px 10px;
@@ -55,6 +53,11 @@
     background-color: rgb(255, 242, 0);
 
 }
+.c button a{
+    text-decoration: none;
+    color: black;
+}
+
 
 .c button{
     color: black !important;
@@ -113,7 +116,10 @@
 
 }
 
+.active{
 
+    font-weight: bold;
+}
 
 /* sidebar img? */
 #img-sider{
@@ -171,6 +177,7 @@
     .c{
         margin-top: 20px;
         margin-right: 20px !important;
+        margin-left: 20px !important;
     }
     #nav1_title{
 
@@ -182,4 +189,9 @@
         font-family: 'Lobster', cursive;
     
     }   
+}
+@media (max-width: 790px) { 
+    .me-4{
+        margin-right: 0.3rem !important;
+    }
 }
