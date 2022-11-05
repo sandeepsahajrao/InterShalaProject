@@ -24,7 +24,7 @@ p1_content */
    width: 99%;
    height: 100%;
    position: relative;
-   background-image: url('https://images.unsplash.com/photo-1613909990461-af406235e098?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80');
+   background-image: url('https://images.unsplash.com/photo-1460904577954-8fadb262612c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1090&q=80');
    background-repeat: no-repeat;
    background-size: cover;
    margin: 20px 0px;
@@ -35,9 +35,16 @@ p1_content */
    top: 40px;
    padding: 0px 20px;
    height: 100%;
+   color: white;
+
 }
-
-
+.p1_content h2{
+   text-shadow: 6px 12px 3px black;
+}
+.p1_content button:hover{
+   background-color: rgb(3,45,60);
+   color:white;
+}
 /* banner end */
 
 /* grids start and end  */
@@ -297,6 +304,29 @@ p1_content */
      align-items: center;
      flex-wrap: wrap;
   }
+
+
+  #item-2 h4,#item-3 h4,#item-4 h4,#item-5 h4{
+   background-color: rgba(251, 251, 0,0.4);
+   display: inline;
+   padding: 3px;
+   color: black;
+   font-weight: 500;
+   font-size: 13px;
+}
+#item-2 h1,#item-3 h1,#item-4 h1,#item-5 h1{
+   background-color: rgba(19, 19, 18, 0.5);
+   color: white;
+   width: 90%;
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding: 3px;
+   font-weight: 600;
+   font-size: 13px;
+}
+
+
   #item-1{
    /* width: 50%; */
    height: 30vh;
@@ -378,7 +408,7 @@ p1_content */
  }
  .p1_content{
      position: absolute;
-     top: 40px;
+     top: 20px;
      padding: 0px 3px;
      height: 100%;
  }
@@ -416,4 +446,66 @@ p1_content */
    }
 
 
+}
+
+
+
+@media (max-width: 768.98px) {
+   #p1_banner{
+      width: 99%;
+      height: 33vh;
+      margin: auto;
+      margin-bottom: 20px;
+    
+  }
+   .p1_content{
+      position: absolute;
+      top: 60%;
+      left: 30%;
+      padding: 0px 3px;
+      height: 100%;
+  }
+
+  .grid {
+   width: 100%;
+   background-color: rgb(191, 188, 188);
+   display: grid; 
+
+   grid-template-rows: auto;
+   grid-template-columns: auto;
+   
+   grid-template-areas: 
+   'label0 label0' 
+   'label1 label1'
+   'label2 label3' 
+   'label4 label5'
+   '. . ';
+}
+
+
+
+  #item-2 h4,#item-3 h4,#item-4 h4,#item-5 h4{
+   background-color: rgba(251, 251, 0,0.4);
+   display: inline;
+   padding: 3px;
+   color: black;
+   font-weight: 500;
+   font-size: 13px;
+}
+#item-2 h1,#item-3 h1,#item-4 h1,#item-5 h1{
+   background-color: rgba(19, 19, 18, 0.5);
+   color: white;
+   width: 90%;
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding: 3px;
+   font-weight: 600;
+   font-size: 13px;
+}
+
+
+
+
+  
 }
