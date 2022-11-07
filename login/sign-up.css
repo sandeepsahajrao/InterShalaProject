@@ -14,9 +14,10 @@
     height: 500px;
 
     /* background-image: linear-gradient(to right bottom, rgb(0, 179, 255) , rgb(90, 87, 243)); */
-    background-image: url('https://images.unsplash.com/photo-1667573144362-c81933bcb6de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+    background-image: url('https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=853&q=80');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right 95%;
     
     position: relative;
   

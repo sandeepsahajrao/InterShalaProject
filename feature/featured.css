@@ -93,7 +93,10 @@
 }
 
 
-
+.btn-input button a{
+    color: white;
+    text-decoration: none;
+}
 
 
 
@@ -198,11 +201,11 @@
         width: 90px;
         height: 30px;
         font-size: 10px;
-        /* font-weight: 600; */
     
-        /* margin-right: 20px; */
-        /* border: 1px solid black ; */
+
     }
+
+   
     
     #choice{
         /* font-size: 10px; */

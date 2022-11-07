@@ -30,7 +30,7 @@
 <body>
     <nav class="navbar" id="header1">
         <div class="container-fluid" id="header">
-            <a class="navbar-brand text-light ms-2 " id="nav1_title">E-commerce</a>
+            <a class="navbar-brand text-light ms-2 " id="nav1_title" href="/index.html">E-commerce</a>
             <form class="d-flex" role="search" id="search_box_nav1">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success text-light" type="submit">Search</button>
@@ -60,25 +60,26 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent" id="second_nav3">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 " id="ulsecond">
                     <li class="nav-item ">
-                        <a class="nav-link" aria-current="page" href="../Home/index.html" target="_parent">Home</a>
+                        <a class="nav-link" aria-current="page" href="/index.html" target="_parent">Home</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" aria-current="page" href="./product.html" target="_parent">All
+                        <a class="nav-link" aria-current="page" href="../Product/product.html" target="_parent">All
                             Products</a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link" href="#">Women</a>
                     </li> -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="./product.html" role="button"
+                        <a class="nav-link dropdown-toggle" href="../Product/product.html" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Women
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./product.html" target="_parent">All</a></li>
-                            <li><a class="dropdown-item" href="./product.css" target="_parent">Dresses</a></li>
-                            <li><a class="dropdown-item" href="./product.html" target="_parent">Pants</a></li>
-                            <li><a class="dropdown-item" href="./product.html" target="_parent">Skirts</a></li>
+                            <li><a class="dropdown-item" href="../Product/product.html" target="_parent">All</a></li>
+                            <li><a class="dropdown-item" href="../Product/product.html" target="_parent">Dresses</a>
+                            </li>
+                            <li><a class="dropdown-item" href="../Product/product.html" target="_parent">Pants</a></li>
+                            <li><a class="dropdown-item" href="../Product/product.html" target="_parent">Skirts</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -87,10 +88,11 @@
                             Men
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./product.html" target="_parent">Shirt</a></li>
-                            <li><a class="dropdown-item" href="./product.html" target="_parent">Pants</a></li>
+                            <li><a class="dropdown-item" href="../Product/product.html" target="_parent">Shirt</a></li>
+                            <li><a class="dropdown-item" href="../Product/product.html" target="_parent">Pants</a></li>
 
-                            <li><a class="dropdown-item" href="./product.html" target="_parent">Hoodies</a></li>
+                            <li><a class="dropdown-item" href="../Product/product.html" target="_parent">Hoodies</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -107,43 +109,35 @@
             <form action="">
                 <h1>Log-In</h1>
                 <!-- <input type="text" placeholder="Enter a Name" required> -->
-                <input type="email" placeholder="Enter a Email" required>
-                <input type="password" placeholder="Enter a Password" required>
+                <input type="email" placeholder="Enter a Email" id="login_email" required />
+                <input type="password" placeholder="Enter a Password" id="login_pass" required />
                 <!-- <input type="password" placeholder="Conform a Password" required> -->
                 <!-- <input type="number" placeholder="Enter a Number" required> -->
-                <button type="button">Log-in</button>
+                <button type="button" id="login_btn">Log-in</button>
             </form>
         </div>
     </section>
     <section class="footer-section">
         <div class="container-fluid" id="footer">
             <div class="row justify-content-evenly">
-
                 <div class="col-lg-3 col-md-2 col-sm-1" id="footer_col3">
-                    <div class="first" id="f">
+                    <div class="first">
                         <ul>
-                            <label for="" class="li-lable"> <a href="">E-commerce</a> </label>
-                            <li>
-                                <a href="">Address:
-                                    <span>
-                                        Pune 411041 Near Lake
-                                    </span>
-                                </a>
-                            </li>
-                            <li><a href="">Hours: <span>10:00 : 18:00 Mon-Sat</span></a></li>
-                            <li><a href="">Phone: 9130520185</a></li>
-                            <li>
-                                <div class="c mt-1 ms-1">
-                                    <h3>Follow-Us</h3>
-                                    <div class="mt-1">
-                                        <i class="fa-brands fa-twitter pe-1"></i>
-                                        <i class="fa-brands fa-facebook pe-1"></i>
-                                        <i class="fa-brands fa-instagram pe-1"></i>
-                                        <i class="fa-brands fa-github pe-1"></i>
-
-                                    </div>
-                                </div>
-                            </li>
+                            <label for="" class="li-lable"> <a href="">Women</a> </label>
+                            <li><a href="">Dresses</a></li>
+                            <li><a href="">Pants</a></li>
+                            <li><a href="">Skirt</a></li>
+                            <label for="" class="li-lable"> <a href="">Kids</a> </label>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-2 col-sm-1" id="footer_col3">
+                    <div class="first">
+                        <ul>
+                            <label for="" class="li-lable"> <a href="">Mens</a> </label>
+                            <li><a href="">Dresses</a></li>
+                            <li><a href="">Pants</a></li>
+                            <li><a href="">Skirt</a></li>
                         </ul>
                     </div>
                 </div>
@@ -160,30 +154,42 @@
                         </ul>
                     </div>
                 </div>
+                <div class="col-lg-3 col-md-2 col-sm-1" id="footer_col3">
+                    <div class="first" id="f">
+                        <ul>
+                            <label for="" class="li-lable"> <a href="">E-commerce</a> </label>
+                            <li>
+                                <a href="">Address:
+                                    <span>
+                                        Pune 411041 Near Lake
+                                    </span>
+                                </a>
+                            </li>
+                            <li><a href="">Hours: <span>10:00 : 18:00 Mon-Sat</span></a></li>
+                            <li><a href="">Phone: 9130520185</a></li>
+                            <li>
+                                <div class="c mt-1 ms-1">
+                                    <h3>Follow-Us</h3>
+                                    <div class="mt-1 fab-icon">
+                                        <i class="fa-brands fa-twitter pe-1"></i>
+                                        <i class="fa-brands fa-facebook pe-1"></i>
+                                        <i class="fa-brands fa-instagram pe-1"></i>
+                                        <i class="fa-brands fa-github pe-1"></i>
 
-                <div class="col-lg-3 col-md-2 col-sm-1" id="footer_col3">
-                    <div class="first">
-                        <ul>
-                            <label for="" class="li-lable"> <a href="">Mens</a> </label>
-                            <li><a href="">Dresses</a></li>
-                            <li><a href="">Pants</a></li>
-                            <li><a href="">Skirt</a></li>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-2 col-sm-1" id="footer_col3">
-                    <div class="first">
-                        <ul>
-                            <label for="" class="li-lable"> <a href="">Women</a> </label>
-                            <li><a href="">Dresses</a></li>
-                            <li><a href="">Pants</a></li>
-                            <li><a href="">Skirt</a></li>
-                            <label for="" class="li-lable"> <a href="">Kids</a> </label>
-                        </ul>
-                    </div>
-                </div>
+
+                <p id="copyright">Copyright @E-commerce 2022-2023</p>
+                <p id="copyright2">Developed by Sandeep Sahajrao</p>
+            </div>
+        </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./login.js"></script>
 </body>
 
 </html>
